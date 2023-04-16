@@ -1,0 +1,44 @@
+@use "reset";
+@import "variables";
+
+@media screen and (max-width: 1080px)
+{
+  form{
+    >*{
+      margin-bottom: (27px/$scalFacY);
+    }
+    input{
+      font-size: 50px / $scalFacY;
+      padding: 0 10px;
+    }
+    input[type=date], input[type=text]{
+      border: 2px solid #949494;
+      height: 85px / $scalFacY;
+    }
+  }
+  input:focus{
+    outline: none;
+    color: $mainColor;
+  }
+}
+
+@media screen and (min-width: 1081px)
+{
+  form{
+    >*{
+      margin-bottom: (27px/$scalFacX);
+    }
+    input{
+      font-size: 50px / $scalFacX;
+      padding: 0 10px;
+    }
+    input[type=date], input[type=text]{
+      border: 1px solid #949494;
+      height: 75px / $scalFacX;
+    }
+  }
+  input:focus{
+    outline: none;
+    color: $mainColor;
+  }
+}

@@ -1,0 +1,59 @@
+@use "reset";
+@import "variables";
+//header
+@media screen and (max-width: 1080px)
+{
+  .main-header{
+    background-color: $mainColor;
+    width: 100vw;
+    height: 295px / $scalFacY;
+    padding: (13px/$scalFacY) (25px/$scalFacY);
+    .sidebar-toggler{
+      width: 80px;
+      box-shadow: 0px -5px 28px 4px rgba(0, 0, 0, 0.19);
+      padding-top: 21px;
+      img{
+        width: 58px/$scalFacY;
+        height: 61px/$scalFacY;
+      }
+    }
+    .header-page-title{
+      //width: 866px;
+      width: 90%;
+      margin-left: 36px;
+      h1{
+        margin-top: 15px / $scalFacY;
+        color: white;
+      }
+    }
+    .header-search{
+      margin-top: 13px / $scalFacY;
+      height: 128px / $scalFacY;
+      background-color: white;
+      input{
+        //width: 928px;
+        width: 90%;
+        padding: 0 25px;
+      }
+      button{
+        width: 84px / $scalFacY;
+        padding-right: 18px / $scalFacX;
+        background-color: #FFFFFF00;
+        img{
+          height: 75%;
+          margin-top: 13%;
+          opacity: 58%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1081px)
+{
+
+  .main-header{
+    display: none;
+  }
+
+}

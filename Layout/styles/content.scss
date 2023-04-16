@@ -1,0 +1,14 @@
+@use "reset";
+@import "variables";
+
+.content{
+  padding: (25px/$scalFacY) (25px/$scalFacY);
+}
+
+@media screen and (min-width: 1081px){
+  .content{
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+  }
+}

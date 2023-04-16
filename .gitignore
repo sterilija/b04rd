@@ -1,1 +1,4 @@
 .idea
+/Layout/img/backgrounds/
+*.css
+*.css.map
