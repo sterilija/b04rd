@@ -1,0 +1,85 @@
+@use "reset";
+@import "variables";
+
+@media screen and (max-width: 1080px)
+{
+  //media
+  .profile-pic{
+    height: 639px;
+    h1{
+      font-size: 98px;
+      color: white;
+      text-align: center;
+      margin-top: 340px;
+      height: max-content;
+    }
+    .profile-pic-edit{
+      width: 128px;
+      height: 128px;
+      background-color: white;
+      margin-left: auto;
+      padding-top: 11px;
+      img{
+        width: 80%;
+        filter: opacity(58%);
+      }
+    }
+  }
+  .profile-bio{
+    textarea{
+      width: 95%;
+      outline: none;
+    }
+    textarea:focus{
+      border-bottom: solid #949494 2px;
+    }
+    textarea::placeholder{
+      font-size: 54px/$scalFacY; //fs-1
+    }
+    img{
+      width: 44px;
+    }
+  }
+  //end media
+}
+@media screen and (min-width: 1081px){
+  //media
+  .profile-pic{
+    height: 325px;
+    h1{
+      font-size: 98px / $scalFacX;
+      color: white;
+      text-align: center;
+      margin-top: 210px;
+      height: max-content;
+    }
+    .profile-pic-edit{
+      width: 128px / $scalFacX;
+      height: 128px / $scalFacX;
+      background-color: white;
+      margin-left: auto;
+      padding-top: 4px;
+      img{
+        width: 80%;
+        filter: opacity(58%);
+      }
+    }
+  }
+  .profile-bio{
+    textarea{
+      width: 95%;
+      resize: none;
+      outline: none;
+      }
+    textarea:focus{
+      border-bottom: solid #949494 2px;
+    }
+    textarea::placeholder{
+      font-size: 54px/$scalFacX; //fs-1
+    }
+    img{
+      width: 44px / $scalFacY;
+    }
+  }
+  //end media
+}

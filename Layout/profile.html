@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./styles/global_mixins.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/content.css">
+    <link rel="stylesheet" href="./styles/block.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./styles/profile.css">
+    <link rel="stylesheet" href="./styles/side-menu.css">
+</head>
+<body>
+<header class="main-header">
+    <div class="d-flex">
+        <div class="sidebar-toggler">
+            <img class="d-block mx-auto" src="img/icons/sidebar-toggler.svg" alt="">
+        </div>
+        <div class="header-page-title d-flex align-center">
+            <h1 class="fs-3 fw-600 w-100">--Profile--</h1>
+        </div>
+    </div>
+</header>
+<section class="content d-flex mx-auto justify-center">
+
+<!--        left side-->
+    <div class="d-flex direction-column display-pc">
+        <div class="block">
+            <div class="side-menu">
+                <ul>
+                    <li class="side-menu-profile d-flex block align-center">
+                        <img src="./img/avatars/1.jpg" alt="">
+                        <p class="ml-auto fs-1 fw-400">Kirill Kalugin</p>
+                    </li>
+                    <li>Browse posts</li>
+                    <li>Log out</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--    right side-->
+    <div class="d-flex direction-column">
+        <div class="d-flex direction-column">
+            <!--    Profile pic-->
+            <div class="block profile-pic" style="background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 100%), url('./img/backgrounds/4.jpg');">
+                <div class="profile-pic-edit">
+                    <img src="./img/icons/pencil-svgrepo-com.svg" class="d-block mx-auto" alt="">
+                </div>
+                <h1 class="fw-700 d-block">
+                    Йоу Йооу
+                </h1>
+            </div>
+            <!--    /Profile pic-->
+
+            <!--    profile bio-->
+            <div class="block profile-bio">
+                <p class="fs-0 fw-300">Bio</p>
+                <div class="d-flex">
+                    <textarea class="fs-1" name="" id="" cols="60" rows="1" placeholder="Write your status"></textarea>
+                    <img src="./img/icons/pencil-svgrepo-com.svg" class="d-block mx-auto" alt="">
+                </div>
+            </div>
+            <!--    /profile bio-->
+
+            <!--    profile id-->
+            <div class="block">
+                <p class="fs-1 fw-300">id: <span>2321d21d</span></p>
+            </div>
+            <!--    /profile id-->
+
+            <!--    profile stats-->
+            <div class="block">
+                <h2 class="fw-600 fs-2">Statistics</h2>
+                <br>
+                <div class="d-flex profile-stats justify-evenly">
+                    <div>
+                        <h2 class="fs-3 fw-600 text-center">125</h2>
+                        <p class="fs-0 fw-300 text-center">Posts</p>
+                    </div>
+                    <div>
+                        <h2 class="fs-3 fw-600 text-center">70</h2>
+                        <p class="fs-0 fw-300 text-center">Topics</p>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <!--    /profile stats-->
+
+            <!--    danger zone-->
+            <div class="block block-expand txt-clr-red">
+                <div class="expand-header d-flex align-center">
+                    <h2 class="fw-400 fs-1">Danger zone</h2>
+                    <span class="fs-2 ml-auto display-mobile">&#9660</span>
+                </div>
+                <div class="expand-body">
+                    <p class="fw-300 fs-1">Wipe all account data & actions</p>
+                    <p class="fw-300 fs-1">Remove profile</p>
+                </div>
+            </div>
+            <!--    /danger zone-->
+        </div>
+    </div>
+
+
+
+</section>
+</body>
+</html>

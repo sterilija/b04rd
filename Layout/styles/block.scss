@@ -54,7 +54,7 @@
   .expand{
 
     .expand-header{
-      height: 132px / $scalFacY;
+      height: max-content;
       .expand-icon{
         width: 78px / $scalFacY;
       }
@@ -65,6 +65,15 @@
 
     .expand-body{
       font-size: 54px / $scalFacY;
+      margin-left: 25px / $scalFacY;
+    }
+
+    .expand-footer{
+      margin-left: 25px / $scalFacY;
+      input[type=checkbox]{
+        width: 41px / $scalFacY;
+        height: 41px / $scalFacY;
+      }
     }
 
   }

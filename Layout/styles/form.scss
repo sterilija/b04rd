@@ -11,7 +11,7 @@
       font-size: 50px / $scalFacY;
       padding: 0 10px;
     }
-    input[type=date], input[type=text]{
+    input[type=date], input[type=text], input[type=email], input[type=password]{
       border: 2px solid #949494;
       height: 85px / $scalFacY;
     }
@@ -19,6 +19,7 @@
   input:focus{
     outline: none;
     color: $mainColor;
+    border-color: $mainColor !important;
   }
 }
 
@@ -32,7 +33,7 @@
       font-size: 50px / $scalFacX;
       padding: 0 10px;
     }
-    input[type=date], input[type=text]{
+    input[type=date], input[type=text], input[type=email], input[type=password]{
       border: 1px solid #949494;
       height: 75px / $scalFacX;
     }
@@ -40,5 +41,6 @@
   input:focus{
     outline: none;
     color: $mainColor;
+    border-color: $mainColor !important;
   }
 }

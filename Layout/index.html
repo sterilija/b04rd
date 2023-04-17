@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/content.css">
     <link rel="stylesheet" href="./styles/block.css">
     <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./styles/side-menu.css">
 </head>
 <body>
 <header class="main-header">
@@ -30,15 +31,22 @@
 
     <div class="d-flex direction-column display-pc">
         <div class="block">
-            <p>Browse</p>
-            <p>Profile</p>
-            <p>Logout</p>
+            <div class="side-menu">
+                <ul>
+                    <li class="side-menu-profile d-flex block align-center">
+                        <img src="./img/avatars/1.jpg" alt="">
+                        <p class="ml-auto fs-1 fw-400">Kirill Kalugin</p>
+                    </li>
+                    <li>Browse posts</li>
+                    <li>Log out</li>
+                </ul>
+            </div>
         </div>
     </div>
 
     <div class="d-flex ml-auto" style="order: 3">
         <div class="block expand">
-            <div class="expand-header d-flex align-center">
+            <div class="expand-header d-flex align-center mb-0">
                 <img src="img/icons/filter-svgrepo-com.svg" alt="" class="expand-icon">
                 <h2 class="fs-2 fw-400">Filter</h2>
                 <span class="fs-2 ml-auto display-mobile">&#9660</span>

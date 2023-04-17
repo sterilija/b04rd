@@ -17,6 +17,13 @@
   .fs-3{
     font-size: 80px / $scalFacY;
   }
+
+  .mb-0{
+    margin-bottom: 25px / $scalFacY;
+  }
+  .ml-0{
+    margin-left: 25px / $scalFacY;
+  }
 }
 @media screen and (min-width: 1081px){
   .display-mobile{
@@ -35,6 +42,13 @@
   .fs-3{
     font-size: 35px / $scalFacY;
   }
+
+  .mb-0{
+    margin-bottom: 25px / $scalFacX;
+  }
+  .ml-0{
+    margin-left: 25px / $scalFacX;
+  }
 }
 .d-none{
   display: none;
@@ -43,11 +57,24 @@
   display: block;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .d-flex{
   display: flex;
 }
 .align-center{
   align-items: center;
+}
+.justify-evenly{
+  justify-content: space-evenly;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.justify-center{
+  justify-content: center;
 }
 .direction-column{
   flex-direction: column;
@@ -58,13 +85,16 @@
 }
 
 .fw-300{
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 .fw-400{
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 .fw-600{
-  font-weight: 600;
+  font-weight: 600 !important;
+}
+.fw-700{
+  font-weight: 700 !important;
 }
 
 
@@ -87,4 +117,8 @@
 }
 .h-100{
   height: 100% !important;
+}
+
+.txt-clr-red{
+  color: red;
 }
