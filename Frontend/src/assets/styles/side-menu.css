@@ -1,0 +1,16 @@
+@media screen and (min-width: 1081px) {
+  .side-menu {
+    width: 330px;
+  }
+  .side-menu li {
+    list-style-type: none;
+  }
+  .side-menu-profile img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+  }
+}
+
+/*# sourceMappingURL=side-menu.css.map */

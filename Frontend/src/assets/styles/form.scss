@@ -1,0 +1,45 @@
+@import "variables";
+
+@media screen and (max-width: 1080px)
+{
+  form{
+    >*{
+      margin-bottom: (27vw/$scalFacX);
+    }
+    input{
+      font-size: 50vw / $scalFacX;
+      padding: 0 27vw/$scalFacX;
+    }
+    input[type=date], input[type=text], input[type=email], input[type=password]{
+      border: 2vw/$scalFacX solid #949494;
+      height: 85vw / $scalFacX;
+    }
+  }
+  input:focus{
+    outline: none;
+    color: $mainColor;
+    border-color: $mainColor !important;
+  }
+}
+
+@media screen and (min-width: 1081px)
+{
+  form{
+    >*{
+      margin-bottom: (27px/$scalFacX);
+    }
+    input{
+      font-size: 50px / $scalFacX;
+      padding: 0 10px;
+    }
+    input[type=date], input[type=text], input[type=email], input[type=password]{
+      border: 1px solid #949494;
+      height: 75px / $scalFacX;
+    }
+  }
+  input:focus{
+    outline: none;
+    color: $mainColor;
+    border-color: $mainColor !important;
+  }
+}

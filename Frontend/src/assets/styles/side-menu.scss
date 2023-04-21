@@ -1,0 +1,23 @@
+@import "variables";
+
+@media screen and (min-width: 1081px)
+{
+  //media
+  .side-menu{
+    width: 330px;
+    li{
+      list-style-type: none;
+    }
+  }
+  .side-menu-profile{
+    //background-color: $mainColor;
+    //color: white;
+    img{
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      object-fit: cover;
+    }
+  }
+  //end media
+}

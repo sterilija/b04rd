@@ -1,0 +1,80 @@
+@media screen and (max-width: 1080px) {
+  .profile-pic {
+    height: 59.2592592593vw;
+    background-size: 100% !important;
+    background-position-y: 50% !important;
+    background-repeat: no-repeat !important;
+    box-shadow: inset 0px -48.0555555556vw 100vw -30.1851851852vw rgb(0, 0, 0);
+  }
+  .profile-pic h1 {
+    font-size: 9.0740740741vw;
+    color: white;
+    text-align: center;
+    margin-top: 30vw;
+    height: max-content;
+  }
+  .profile-pic .profile-pic-edit {
+    width: 11.8518518519vw;
+    height: 11.8518518519vw;
+    background-color: white;
+    margin-left: auto;
+    padding-top: 1.3888888889vw;
+  }
+  .profile-pic .profile-pic-edit img {
+    width: 8.9814814815vw;
+    filter: opacity(58%);
+  }
+  .profile-bio textarea {
+    width: 100%;
+    outline: none;
+    resize: none;
+  }
+  .profile-bio textarea:focus {
+    border-bottom: solid #949494 2px;
+  }
+  .profile-bio textarea::placeholder {
+    font-size: 5vw;
+  }
+  .profile-bio img {
+    width: 44px;
+  }
+}
+@media screen and (min-width: 1081px) {
+  .profile-pic {
+    height: 325px;
+  }
+  .profile-pic h1 {
+    font-size: 9.0740740741px;
+    color: white;
+    text-align: center;
+    margin-top: 210px;
+    height: max-content;
+  }
+  .profile-pic .profile-pic-edit {
+    width: 11.8518518519px;
+    height: 11.8518518519px;
+    background-color: white;
+    margin-left: auto;
+    padding-top: 4px;
+  }
+  .profile-pic .profile-pic-edit img {
+    width: 80%;
+    filter: opacity(58%);
+  }
+  .profile-bio textarea {
+    width: 95%;
+    resize: none;
+    outline: none;
+  }
+  .profile-bio textarea:focus {
+    border-bottom: solid #949494 2px;
+  }
+  .profile-bio textarea::placeholder {
+    font-size: 5px;
+  }
+  .profile-bio img {
+    width: 2.2916666667px;
+  }
+}
+
+/*# sourceMappingURL=profile.css.map */

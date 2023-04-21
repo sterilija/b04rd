@@ -1,0 +1,15 @@
+@import "variables";
+
+.content{
+  padding: (25vw/$scalFacX) (25vw/$scalFacX);
+}
+
+@media screen and (min-width: 1081px){
+  .content{
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    width: 1080px;
+    margin: 0 auto;
+  }
+}

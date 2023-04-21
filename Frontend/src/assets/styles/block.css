@@ -1,0 +1,131 @@
+@media screen and (max-width: 1080px) {
+  .block {
+    box-shadow: 0 0.5555555556vw 1.8518518519vw rgba(0, 0, 0, 0.15);
+  }
+  .block {
+    width: 100%;
+    padding: 2.4074074074vw 3.2407407407vw;
+    margin-bottom: 1.3020833333vw;
+  }
+  .post .post-details {
+    margin-bottom: 1.3020833333vw;
+  }
+  .post .post-details > * {
+    margin-bottom: 0.6510416667vw;
+    margin-top: 0.6510416667vw;
+  }
+  .post .post-details .post-author {
+    color: cornflowerblue;
+  }
+  .post .post-details .post-dir {
+    margin-left: 3.4259259259vw;
+  }
+  .post .post-details .post-answeron {
+    width: 73%;
+    margin-left: 50px;
+    border: 1px solid #949494;
+  }
+  .post .post-details .post-answeron p {
+    margin-left: 7px;
+  }
+  .post .post-imgs {
+    display: flex;
+    width: 100%;
+    height: 23.4895833333vw;
+    margin-top: 1.1458333333vw;
+    margin-bottom: 14px;
+  }
+  .post .post-imgs img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .expand .expand-header {
+    height: max-content;
+  }
+  .expand .expand-header .expand-icon {
+    width: 7.2222222222vw;
+    margin-right: 2.3148148148vw;
+  }
+  .expand .expand-body {
+    margin-left: 2.3148148148vw;
+  }
+  .expand .expand-body > * {
+    font-size: 5vw;
+  }
+  .expand .expand-footer input[type=checkbox] {
+    width: 3.7962962963vw;
+    height: 3.7962962963vw;
+  }
+  .block-plain {
+    margin: 2.3148148148vw 3.2407407407vw;
+  }
+  .add_cat_icon {
+    width: 4.0740740741vw;
+  }
+}
+@media screen and (min-width: 1081px) {
+  .block {
+    padding: 2.4074074074px 3.2407407407px;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  }
+  .expand {
+    height: max-content;
+  }
+  .expand .expand-header {
+    height: 12.2222222222px;
+  }
+  .expand .expand-header .expand-icon {
+    width: 7.2222222222px;
+  }
+  .expand .expand-header h2 {
+    margin-left: 2.3148148148px;
+  }
+  .expand .expand-body {
+    font-size: 12.5px;
+  }
+  .block-plain {
+    margin: 3.1481481481px 3.2407407407px 3.1481481481px 3.2407407407px;
+  }
+  .add_cat_icon {
+    width: 4.0740740741px;
+  }
+  .post h3 {
+    margin-bottom: 10px;
+  }
+  .post .post-imgs {
+    width: 100%;
+    height: 23.4895833333px;
+    margin-top: 1.1458333333px;
+    margin-bottom: 14px;
+  }
+  .post .post-imgs img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .post .post-details {
+    margin-bottom: 2.3148148148px;
+  }
+  .post .post-details > * {
+    margin-bottom: 0.6510416667px;
+    margin-top: 0.6510416667px;
+  }
+  .post .post-details .post-author {
+    color: cornflowerblue;
+  }
+  .post .post-details .post-dir {
+    margin-left: 3.4259259259px;
+  }
+  .post .post-details .post-answeron {
+    width: 430px;
+    margin-left: 27px;
+    border: 1px solid #949494;
+  }
+  .post .post-details .post-answeron p {
+    margin-left: 7px;
+  }
+}
+
+/*# sourceMappingURL=block.css.map */

@@ -1,0 +1,38 @@
+@media screen and (max-width: 1080px) {
+  form > * {
+    margin-bottom: 2.5vw;
+  }
+  form input {
+    font-size: 4.6296296296vw;
+    padding: 0 2.5vw;
+  }
+  form input[type=date], form input[type=text], form input[type=email], form input[type=password] {
+    border: 0.1851851852vw solid #949494;
+    height: 7.8703703704vw;
+  }
+  input:focus {
+    outline: none;
+    color: #2D90BA;
+    border-color: #2D90BA !important;
+  }
+}
+@media screen and (min-width: 1081px) {
+  form > * {
+    margin-bottom: 2.5px;
+  }
+  form input {
+    font-size: 4.6296296296px;
+    padding: 0 10px;
+  }
+  form input[type=date], form input[type=text], form input[type=email], form input[type=password] {
+    border: 1px solid #949494;
+    height: 6.9444444444px;
+  }
+  input:focus {
+    outline: none;
+    color: #2D90BA;
+    border-color: #2D90BA !important;
+  }
+}
+
+/*# sourceMappingURL=form.css.map */

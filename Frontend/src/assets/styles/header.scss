@@ -1,0 +1,66 @@
+@import "variables";
+//header
+@media screen and (max-width: 1080px)
+{
+  //media
+  .main-header{
+    background-color: $mainColor;
+    width: 100vw;
+    padding: (13vw/$scalFacY) (25vw/$scalFacX);
+    .sidebar-toggler{
+      width: 128vw / $scalFacX;
+      height: 128vw / $scalFacX;
+      box-shadow: 0px -5px 28px 4px rgba(0, 0, 0, 0.19);
+      padding-top: 33vw/$scalFacX;
+      img{
+        width: 58vw/$scalFacX;
+        height: 61vw/$scalFacX;
+      }
+    }
+    .header-page-title{
+      //width: 866px;
+      width: 90%;
+      margin-left: 36vw/$scalFacY;
+      h1{
+        color: white;
+      }
+    }
+    .header-search{
+      margin-top: 13vw / $scalFacY;
+      height: 128vw / $scalFacX;
+      background-color: white;
+      input{
+        //width: 928px;
+        width: 90%;
+        padding: 0 25px;
+      }
+      input:focus{
+        outline: none;
+        color: $mainColor;
+      }
+      button{
+        width: 84vw / $scalFacX;
+        padding-right: 18vw / $scalFacX;
+        background-color: #FFFFFF00;
+        img{
+          height: 75%;
+          margin-top: 13%;
+          opacity: 58%;
+        }
+      }
+    }
+  }
+  .focused, .focused>*:not(button){
+    background: linear-gradient(180deg, rgba(45, 144, 186, 0.7) 0%, rgba(255, 255, 255, 0) 19.79%, rgba(255, 255, 255, 0.320155) 88.02%, rgba(45, 144, 186, 0.7) 100%), #FFFFFF;
+  }
+  //media end
+}
+
+@media screen and (min-width: 1081px)
+{
+
+  .main-header{
+    display: none;
+  }
+
+}

@@ -1,0 +1,15 @@
+.content {
+  padding: 2.3148148148vw 2.3148148148vw;
+}
+
+@media screen and (min-width: 1081px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    width: 1080px;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=content.css.map */
